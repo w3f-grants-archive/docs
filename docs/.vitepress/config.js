@@ -17,10 +17,16 @@ export default {
         ],
         sidebar: [
           {
-            text: 'Guide',
             items: [
                 { text: 'Introduction', link: '/' },
                 { text: 'Getting Started', link: '/getting-started' }
+            ]
+          },
+          {
+            text: 'Pallets',
+            items: [
+              { text: 'xToken', link: '/pallets/xtoken' },
+              { text: 'HRMP', link: '/pallets/hrmp' }
             ]
           },
         ]
