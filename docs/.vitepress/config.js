@@ -1,10 +1,8 @@
-const ourStorySidebar = [{ text: 'Our Story', link: '/about/our-story' }]
-
 export default {
     title: 'ParaSpell',
     description: 'Just playing around.',
     themeConfig: {
-        logo: '/img/logo-vue.svg',
+        logo: '/img/paraspell.png',
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/vuejs/vue' },
@@ -21,13 +19,8 @@ export default {
           {
             text: 'Guide',
             items: [
-                { text: 'Our Story', link: '/about/our-story' }
-            ]
-          },
-          {
-            text: 'Guide',
-            items: [
-                { text: 'Our Story', link: '/about/our-story' }
+                { text: 'Introduction', link: '/' },
+                { text: 'Getting Started', link: '/getting-started' }
             ]
           },
         ]
