@@ -21,3 +21,4 @@ import * as paraspell from '@paraspell/sdk'
 // CommonJS
 const { } = require('@paraspell/sdk')
 ```
+
