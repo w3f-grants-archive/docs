@@ -1,17 +1,18 @@
-# Documentation pages
+# Paraspell SDK documentation
+![Full name](https://user-images.githubusercontent.com/55763425/211901791-24ab9585-ebe2-4d54-9ef8-94400c1d5ad2.png)
 
-The following are docs for written for how to interact with the paraspell sdk.
-
-To start the development server type:
+For development of documentation
 ```
-yarn docs:dev
+pnpm dev
 ```
 
-Build with
+To build documentation
 ```
-yarn docs:build
+pnpm build
 ```
+
+To check documentation
 ```
-yarn docs:serve
-yarn docs:preview
+pnpm serve
+pnpm preview
 ```

@@ -5,15 +5,12 @@ export default {
         logo: '/img/paraspell.png',
 
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/vuejs/vue' },
-            { icon: 'twitter', link: 'https://twitter.com/vuejs' },
-            { icon: 'discord', link: 'https://discord.com/invite/HBherRA' }
+            { icon: 'github', link: 'https://github.com/paraspell' },
+            { icon: 'twitter', link: 'https://twitter.com/paraspell' },
         ],
 
         nav: [
             { text: 'Home', link: '/'},
-            { text: 'About', link: '/about/'},
-            { text: 'Contact', link: '/contact'}
         ],
         sidebar: [
           {
@@ -25,8 +22,10 @@ export default {
           {
             text: 'Pallets',
             items: [
-              { text: 'xToken', link: '/pallets/xtoken' },
-              { text: 'HRMP', link: '/pallets/hrmp' }
+              { text: 'XCM Pallet', link: '/pallets/xcmPallet' },
+              { text: 'HRMP Pallet', link: '/pallets/HRMP' },
+              { text: 'XYK Pallet', link: '/pallets/XYK' },
+              { text: 'Asset Pallet', link: '/pallets/AssetPallet' }
             ]
           },
         ]
