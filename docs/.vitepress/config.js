@@ -34,7 +34,6 @@ export default {
           {
             text: 'Usage of UI',
             items: [
-              { text: 'Installing', link: '/ui/installing' },
               { text: 'Starting local network', link: '/ui/local' },
               { text: 'Modifying local network', link: '/ui/modify' },
               { text: 'Adding new currency to UI', link: '/ui/currency' }
