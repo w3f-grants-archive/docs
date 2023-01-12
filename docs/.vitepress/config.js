@@ -1,6 +1,9 @@
 export default {
     title: 'ParaSpell',
-    description: 'Just playing around.',
+    description: 'Make world more connected with XCM.',
+    head: [
+    ['link', { rel: "icon", sizes: "180x180", href: "/img/favicon.png"}],
+  ],
     themeConfig: {
         logo: '/img/paraspell.png',
 
