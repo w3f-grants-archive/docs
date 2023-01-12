@@ -1,5 +1,3 @@
-UPDATE THIS - IS FROM WIKI
-
 ## Updating network config
 Network configuration can be found in the file "[paraspell-network-config.yml](https://github.com/dudo50/ParaSpell/blob/main/paraspell-network-config.yml)". We will explain how a new node can be added by explaining part of config file on one example node.
 ![carbon (31)](https://user-images.githubusercontent.com/55763425/186969086-f5875cb1-61d4-4d0b-89b1-e373b61fa515.png)
