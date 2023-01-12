@@ -1,5 +1,6 @@
 # Paraspell SDK documentation
-![Full name](https://user-images.githubusercontent.com/55763425/211901791-24ab9585-ebe2-4d54-9ef8-94400c1d5ad2.png)
+![Full name (3)](https://user-images.githubusercontent.com/55763425/197985791-fc7afa52-061d-413a-bbe9-bf1123f16a50.png)
+
 
 For development of documentation
 ```
