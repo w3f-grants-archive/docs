@@ -22,19 +22,19 @@ export default {
           {
             text: 'Pallets in SDK',
             items: [
-              { text: 'Asset Pallet💰', link: '/sdk/AssetPallet' },
-              { text: 'HRMP Pallet⛓️', link: '/sdk/HRMP' },
-              { text: 'XCM Pallet📭', link: '/sdk/xcmPallet' },
-              { text: 'XYK Pallet📈', link: '/sdk/XYK' }
+              { text: 'Asset Pallet', link: '/sdk/AssetPallet' },
+              { text: 'HRMP Pallet', link: '/sdk/HRMP' },
+              { text: 'XCM Pallet', link: '/sdk/xcmPallet' },
+              { text: 'XYK Pallet', link: '/sdk/XYK' }
             ]
           },
           {
             text: 'Usage of UI',
             items: [
-              { text: 'Installing🛠️', link: '/ui/installing' },
-              { text: 'Starting local network🌍', link: '/ui/local' },
-              { text: 'Modifying local network🧰', link: '/ui/modify' },
-              { text: 'Adding new currency to UI💵', link: '/ui/currency' }
+              { text: 'Installing', link: '/ui/installing' },
+              { text: 'Starting local network', link: '/ui/local' },
+              { text: 'Modifying local network', link: '/ui/modify' },
+              { text: 'Adding new currency to UI', link: '/ui/currency' }
             ]
           },
           {
