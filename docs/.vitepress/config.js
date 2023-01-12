@@ -28,6 +28,12 @@ export default {
               { text: 'XYK Pallet', link: '/pallets/XYK' }
             ]
           },
+          {
+            text: 'Interesting links',
+            items: [
+              { text: 'Links', link: '/links' },
+            ]
+          },
         ]
     }
   }
