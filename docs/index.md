@@ -1,22 +1,27 @@
-# Introduction
+# What is ParaSpell✨
 
-ParaSpell is XCM & XCMP related tool built to save developers time when interacting with the network. It is no longer necessary to search for correct XCM pallets, fill lengthy XCM messages with all the required details or go through research on launching network. Developers can use ParaSpell to download/install/start necessary nodes with a single command, execute XCM transactions from a user-friendly UI, or open & close HRMP channels between nodes in the launched network from a user-friendly UI.
+ParaSpell✨ focuses on enhancing `XCM` functionality along with `Assets` that node implement, `XYK` pallet and `HRMP` pallet.
 
-## Overview
-ParaSpell main advantages can be summarized in the following list:
+**Why should I use ParaSpell✨?**
 
- 1. ParaSpell is a platform that allows developers to use specific XCM & XCMP related tasks from a user-friendly interface.
- 2. ParaSpell focuses on ease of use, broad scale of use cases, and bringing XCM & XCMP utilization & documentation closer to developers.
- 3. ParaSpell guarantees to be a completely decentralized, open-source platform that does not collect any user data.
+Implementing XCM support into your dApp could be `complicated` matter sometimes. Each node can implement support for XCM their `own way`. ParaSpell✨ `wraped` every compatible node and did this `research` for you. In the end, `saving time` can be essential when delivering a product. Time `never` stops, so we all should use it wisely.
 
-One of the ParaSpell main goals is to reduce the time necessary to create XCM calls or open HRMP channels.
+**ParaSpell✨ divides into two parts which will be mentioned in docs:**
 
-![comparison](https://user-images.githubusercontent.com/55763425/198574715-1a94a865-671d-4407-b509-9611d661b914.jpg)
+- XCM SDK, you can easily construct `XCM` messages in matter of seconds 
+- UI for XCM SDK, playing with `local network` and for `parachain developers` to test their work
 
-As we can see in the figure above, the amount of details the user has to fill to transfer the XCM message is drastically reduced. As an example, users do not need to specify a specific route from origin to destination chain. These details are filled for them.
+## Project achievements so far
+Project achievements in chronological order ⌛️.
 
-Another goal of ParaSpell is having network installation, compilation & startup done as simply as possible. This is achieved by makefile that groups commands into fewer much more intuitive commands and by network startup configuration file. Together, these two files take care of the network side, and adding new nodes into these files is intuitive. Starting the application is also very simple and done by one command. Communication between application and network is made possible with Polkadot API libraries.
+- 📙 Article about project created & presented on international conference ICECET2022 held in Prague (450 out of 1000+ articles accepted) Link to IEEE publication - [IEEE - Sharing Fungible Assets Across Polkadot Paraverse](https://ieeexplore.ieee.org/document/9872938/)
+- 🥈 2nd Prize, Build a XCM related Tool for Moonbeam - Polkadot North America Hackathon [Hackathon entry](https://devpost.com/software/polkachange-cross-blockchain-transfer-tool)
+- 🥉 3rd Prize, EVM+ DApp for aUSD yield - Polkadot North America Hackathon [Hackathon entry](https://devpost.com/software/polkachange-cross-blockchain-transfer-tool)
+- 🎈 Web 3 Foundation base grant funding accepted [link](https://github.com/dudo50/Grants-Program/blob/d182e10ecbd7705aee07edc5f7aa0085d07188e5/applications/ParaSpell.md) and milestone delivery approved [link](https://github.com/w3f/Grant-Milestone-Delivery/pull/584) .
+- 🐍 Basilisk treasury proposal 1/2 Approved [link](https://basilisk.subsquare.io/treasury/proposal/2)
 
-ParaSpell focuses mainly on substrate developers. Added value comes from being user friendly SDK for simplifying development by saving time necessary to install & launch network, open HRMP channels or create XCM transfers between nodes available in network.
+### Founded by
 
-Overall ParaSpell is all about developer experience.
+[<img width="245" alt="web3 foundation_grants_badge_black" src="https://user-images.githubusercontent.com/55763425/211145923-f7ee2a57-3e63-4b7d-9674-2da9db46b2ee.png">](https://github.com/w3f/Grants-Program/pull/1245)
+
+[![logo-v1](https://user-images.githubusercontent.com/55763425/204865221-90d2b3cd-f2ac-48a2-a367-08722aa8e923.svg)](https://bsx.fi/)
