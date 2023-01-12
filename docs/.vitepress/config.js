@@ -15,17 +15,17 @@ export default {
         sidebar: [
           {
             items: [
-                { text: 'Introduction', link: '/' },
+                { text: 'About SDK', link: '/' },
                 { text: 'Getting Started', link: '/getting-started' }
             ]
           },
           {
-            text: 'Pallets',
+            text: 'Pallets in SDK',
             items: [
-              { text: 'XCM Pallet', link: '/pallets/xcmPallet' },
+              { text: 'Asset Pallet', link: '/pallets/AssetPallet' },
               { text: 'HRMP Pallet', link: '/pallets/HRMP' },
-              { text: 'XYK Pallet', link: '/pallets/XYK' },
-              { text: 'Asset Pallet', link: '/pallets/AssetPallet' }
+              { text: 'XCM Pallet', link: '/pallets/xcmPallet' },
+              { text: 'XYK Pallet', link: '/pallets/XYK' }
             ]
           },
         ]
