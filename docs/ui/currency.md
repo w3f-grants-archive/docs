@@ -1,5 +1,3 @@
-UPDATE THIS - IS FROM WIKI
-
 ## Adding currency to screen dropdowns
 Each screen for XCM transfer has also a currency select dropdown. In order to add new currency search for the function that executes on "mount" meaning, that it will automatically fetch data once the screen is opening. Search for the comment "Currencies we can transfer in". There is already a "KSM" currency defined. You can add yours under it.
 ![carbon (1)](https://user-images.githubusercontent.com/55763425/188236673-d4689334-a274-4cff-8cbc-df3aaa1fc4c3.png)
