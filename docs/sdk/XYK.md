@@ -13,16 +13,56 @@ Quick intro to XYK functionality:
 - **sell**: Call that allows to sell specific asset from pool that exists
 
 ## Builder pattern addLiquidity
-TBA
+```js
+    Builder(api)
+      .addLiquidity()
+      .assetA(assetA)
+      .assetB(assetB)
+      .amountA(amountA)
+      .amountBMaxLimit(maxLimit)
+      .build()
+```
 ## Builder pattern removeLiquidity
-TBA
+```js
+    Builder(api)
+      .removeLiquidity()
+      .assetA(assetA)
+      .assetB(assetB)
+      .liquidityAmount(liquidity)
+      .build()
+```
 ## Builder pattern createPool
-TBA
+```js
+ Builder(api)
+      .createPool()
+      .assetA(assetA)
+      .amountA(amountA)
+      .assetB(assetB)
+      .amountB(amountB)
+      .build()
+```
 ## Builder pattern buy
-TBA
+```js
+    Builder(api)
+      .buy()
+      .assetOut(out)
+      .assetIn(in)
+      .amount(amount)
+      .maxLimit(maxLimit)
+      .discount(discount)
+      .build()
+```
 ## Builder pattern sell
-TBA
-
+```js
+    Builder(api)
+      .sell()
+      .assetIn(in)
+      .assetOut(out)
+      .amount(amount)
+      .maxLimit(maxLimit)
+      .discount(discount)
+      .build()
+```
 ## Functional pattern addLiquidity
 ```js
 paraspell.xyk.addLiquidity(api: ApiPromise, assetA: number, assetB: number, amountA: any, amountBMaxLimit: any)

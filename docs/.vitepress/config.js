@@ -3,7 +3,7 @@ export default {
     description: 'Make world more connected with XCM.',
     base: '/docs/',
     head: [
-    ['link', { rel: "icon", sizes: "180x180", href: "./favicon.png"}],
+    ['link', { rel: "icon", sizes: "180x180", href: "./public/favicon.png"}],
   ],
     themeConfig: {
         logo: './paraspell.png',
