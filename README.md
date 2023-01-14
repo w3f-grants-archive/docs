@@ -4,16 +4,16 @@
 
 For development of documentation
 ```
-pnpm dev
+yarn docs:dev
 ```
 
 To build documentation
 ```
-pnpm build
+yarn docs:build
 ```
 
 To check documentation
 ```
-pnpm serve
-pnpm preview
+yarn docs:serve
+yarn docs:preview
 ```
