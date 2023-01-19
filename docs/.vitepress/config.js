@@ -2,6 +2,12 @@ export default {
     title: 'ParaSpell',
     description: 'Make world more connected with XCM.',
     base: '/docs/',
+    head: [
+      [
+        'link',
+        { rel: 'icon', type: 'image/x-icon',  href: '/docs/favicon.ico' }
+      ]
+    ],
     themeConfig: {
         logo: '/paraspell.png',
 
