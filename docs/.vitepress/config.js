@@ -24,7 +24,7 @@ export default {
             ]
           },
           {
-            text: 'Pallets in SDK',
+            text: 'Pallets in XCM-SDK',
             items: [
               { text: 'Asset Pallet', link: '/sdk/AssetPallet' },
               { text: 'HRMP Pallet', link: '/sdk/HRMP' },
@@ -33,7 +33,7 @@ export default {
             ]
           },
           {
-            text: 'Usage of UI',
+            text: 'Usage of UI-v1',
             items: [
               { text: 'Starting local network', link: '/ui/local' },
               { text: 'Modifying local network', link: '/ui/modify' },
