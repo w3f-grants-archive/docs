@@ -28,6 +28,7 @@ export default {
             items: [
               { text: 'Asset Pallet', link: '/sdk/AssetPallet' },
               { text: 'HRMP Pallet', link: '/sdk/HRMP' },
+              { text: 'Node Pallets', link: '/sdk/NodePallets' },
               { text: 'XCM Pallet', link: '/sdk/xcmPallet' },
               { text: 'XYK Pallet', link: '/sdk/XYK' }
             ]
