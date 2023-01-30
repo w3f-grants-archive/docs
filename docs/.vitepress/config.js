@@ -42,6 +42,13 @@ export default {
             ]
           },
           {
+            text: 'Usage of UI-V2',
+            items: [
+              { text: 'Starting local network', link: '/ui2/local2' },
+              { text: 'Adding new currency to UI', link: '/ui2/currency2' }
+            ]
+          },
+          {
             text: 'Interesting links',
             items: [
               { text: 'Links', link: '/links' },
