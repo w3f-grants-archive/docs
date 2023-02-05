@@ -18,7 +18,7 @@ Project achievements in chronological order ⌛️.
 - 🥈 2nd Prize, Build a XCM related Tool for Moonbeam - Polkadot North America Hackathon [Hackathon entry](https://devpost.com/software/polkachange-cross-blockchain-transfer-tool)
 - 🥉 3rd Prize, EVM+ DApp for aUSD yield - Polkadot North America Hackathon [Hackathon entry](https://devpost.com/software/polkachange-cross-blockchain-transfer-tool)
 - 🎈 Web 3 Foundation base grant [Application](https://github.com/dudo50/Grants-Program/blob/d182e10ecbd7705aee07edc5f7aa0085d07188e5/applications/ParaSpell.md), [Delivery](https://github.com/w3f/Grant-Milestone-Delivery/pull/584)
-- 🐍 [Basilisk](https://bsx.fi/) treasury proposal 1/2 Approved [link](https://basilisk.subsquare.io/treasury/proposal/2)
+- 🐍 [Basilisk](https://bsx.fi/) treasury proposal 2/2 Approved [link](https://basilisk.subsquare.io/treasury/proposal/2), [link2](https://basilisk.subsquare.io/treasury/proposal/4)
 - ⭐️ [Astar](https://astar.network/) XCM bounty Polkadot hackathon Latam Bounty [link](https://github.com/AstarNetwork/AstarBounties/pull/17)
 - 🔭 Web 3 Foundation phase 2 grant Milestone 1 / 3 delivered [Application](https://github.com/w3f/Grants-Program/pull/1245), [Delivery1](https://github.com/w3f/Grant-Milestone-Delivery/pull/670) 
 
