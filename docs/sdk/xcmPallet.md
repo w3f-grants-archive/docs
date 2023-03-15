@@ -32,8 +32,7 @@ Only `to` parameter is provided, thus the parachain to relaychain scenario will 
 ```js
     Builder(api)
       .from('Acala')            // Origin node
-      .currency('DOT')          // Token symbol if needed (if not just insert random string, it will not be considered)
-      .currencyId(currencyId)   // CurrencyID if needed (if not just insert random number, it will not be considered)
+      .currency('DOT')          // Token symbol (String) || TokenID (Number)
       .amount(amount)           // Token amount
       .address(address)         // AccountId32 address
       .build()                  // Function called to build call
@@ -50,8 +49,7 @@ Both `from` and `to` parameters are provided, thus the parachain to parachain sc
   Builder(api)
       .from('Karura')           // Origin node
       .to('Basilisk')           // Destination node
-      .currency('KSM')          // Token symbol if needed (if not just insert random string, it will not be considered)
-      .currencyId(currencyId)   // CurrencyID if needed (if not just insert random number, it will not be considered)
+      .currency('KSM')          // Token symbol (String) || TokenID (Number)
       .amount(amount)           // Token amount
       .address(address)         // AccountId32 or AccountKey20 address
       .build()                  // Function called to build call
@@ -85,8 +83,7 @@ This XCM constructor uses send function same as Parachain to Parachain scenario.
 paraspell.xcmPallet.send(
   api,
   origin,       // Origin node
-  currency,     // Token symbol if needed (if not just insert random string, it will not be considered)
-  currencyID,   // CurrencyID if needed (if not just insert random number, it will not be considered)
+  currency,     // Token symbol (String) || TokenID (Number)
   amount,       // Token amount
   to            // AccountId32 or AccountKey20 address
   )
@@ -103,8 +100,7 @@ This XCM constructor uses send function same as Parachain to Relay chain scenari
 paraspell.xcmPallet.send(
   api, 
   origin,       // Origin node
-  currency,     // Token symbol if needed (if not just insert random string, it will not be considered)
-  currencyID,   // CurrencyID if needed (if not just insert random number, it will not be considered)
+  currency,     // Token symbol (String) || TokenID (Number)
   amount,       // Token amount
   to,           // AccountId32 or AccountKey20 address
   destination   // Destination node
