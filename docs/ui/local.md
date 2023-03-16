@@ -13,12 +13,7 @@ sudo make initialize
 sudo make initialize
 ```
 
-Then you have to compile network config file
-```
-make install
-```
-
-Lastly you launch it onto docker as containers (make sure docker deamon is running)
+Then you have to compile network config file and launch it onto docker as containers (make sure docker deamon is running)
 ```
 make install
 ```
