@@ -3,18 +3,17 @@
 #### Since version 1.0.0
 Our SDK introduced all Polkadot libraries as peer dependencies. Reason for this is, that most of the projects use these libraries in some way already and it fixes issues with unmet dependency warnings. Make sure your project have them. You can install them by following command:
 
-##### Install dependencies via npm
+##### Install dependencies
 ```sh
+# npm
 npm install @polkadot/api @polkadot/types @polkadot/api-base @polkadot/apps-config
 ```
-
-##### Install dependencies via yarn
 ```sh
+# yarn
 yarn install @polkadot/api @polkadot/types @polkadot/api-base @polkadot/apps-config
 ```
-
-##### Install dependencies via pnpm
 ```sh
+# pnpm
 pnpm install @polkadot/api @polkadot/types @polkadot/api-base @polkadot/apps-config
 ```
 
