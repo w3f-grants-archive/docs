@@ -10,15 +10,10 @@ You can install required prerequisites for starting network with simple command:
 sudo make initialize
 
 //if you have mac
-sudo make initialize
+sudo make initializemac
 ```
 
 Then you have to compile network config file
-```
-make install
-```
-
-Lastly you launch it onto docker as containers (make sure docker deamon is running)
 ```
 make install
 ```

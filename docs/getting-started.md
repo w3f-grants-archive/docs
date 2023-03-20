@@ -22,10 +22,12 @@ pnpm install @polkadot/api @polkadot/types @polkadot/api-base @polkadot/apps-con
 ```sh
 # npm
 npm install @paraspell/sdk
-
+```
+```sh
 # yarn
 yarn install @paraspell/sdk
-
+```
+```sh
 # pnpm
 pnpm install @paraspell/sdk
 ```
@@ -43,7 +45,8 @@ import { Builder } from '@paraspell/sdk'
 ```js
 // ESM
 import * as paraspell from '@paraspell/sdk'
-
+```
+```js
 // CommonJS
 const { } = require('@paraspell/sdk')
 ```

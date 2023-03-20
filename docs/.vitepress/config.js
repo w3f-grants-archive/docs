@@ -34,7 +34,7 @@ export default {
             ]
           },
           {
-            text: 'Usage of UI-V1',
+            text: 'Usage of UI-V1 (Archived)',
             items: [
               { text: 'Starting local network', link: '/ui/local' },
               { text: 'Modifying local network', link: '/ui/modify' },
