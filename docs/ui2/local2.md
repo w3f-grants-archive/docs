@@ -1,10 +1,10 @@
 # Starting local network
 
-Starting local network on UI-V2 is `very simple` and same as on V1. First we need to make sure that our `pre-requirements` are installed and set.
+Starting a local network on UI-V2 is `very simple` and same as on V1. First, we need to make sure that our `pre-requirements` are installed and set.
 
 ParaSpell tries to make this as `simple` as possible for you here.
 
-You can install required prerequisites for starting network with simple command:
+You can install the required prerequisites for starting the network with a simple command:
 ```
 //linux
 sudo make initialize
@@ -13,12 +13,12 @@ sudo make initialize
 sudo make initializemac
 ```
 
-Then you have to compile network config file
+Then you have to compile the network config file and launch it onto docker as containers (make sure docker daemon is running)
 ```
 make install
 ```
 
-Relaunching network after it was put down is necessary. It can be done by following command
+Relaunching the network after it was put down is necessary. It can be done by the following command
 ```
 make launch
 ```

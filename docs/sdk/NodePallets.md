@@ -1,31 +1,31 @@
-# Node pallets
+# Parachain pallets
 
-This functionality allows developers to query `XCM pallets` that nodes currently support. 
+This functionality allows developers to query the `XCM pallets` that Parachains currently support. 
 
 ## Importing functionality
 
-In order to use this functionality you first have to import it  in following way.
+To use this functionality you first have to import it in the following way.
 ```js
 import { getDefaultPallet, getSupportedPallets, SUPPORTED_PALLETS } from '@paraspell/sdk'
 ```
 
-## Return default pallet for specific parachain node
+## Return default pallet for specific Parachain
 
-Function returns default XCM pallet for selected compatible node.
+The function returns the default XCM pallet for selected compatible Parachain.
 ```js
 getDefaultPallet(node: TNode)
 ```
 
-## Return an array of supported pallets for specific parachain node
+## Return an array of supported pallets for specific Parachain
 
-Function returns all supported XCM pallets for selected compatible node.
+The function returns all supported XCM pallets for selected compatible Parachain.
 ```js
 getSupportedPallets(node: TNode)
 ```
 
 ## Print all pallets that are currently supported
 
-This returns all supported XCM pallets supported by compatible nodes as constant.
+This returns all supported XCM pallets supported by compatible Parachains as constant.
 ```js
 console.log(SUPPORTED_PALLETS)
 ```
