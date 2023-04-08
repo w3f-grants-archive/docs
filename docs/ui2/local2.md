@@ -1,10 +1,10 @@
 # Starting local network
 
-Starting a local network on UI-V2 is `very simple` and same as on V1. First, we need to make sure that our `pre-requirements` are installed and set.
+Starting local network on UI-V2 is `very simple` and same as on V1. The only change is, that we  have added "Zombienet" startup configurator along "Parachain-Launch" configurator to better suit broader scale of developers. First we need to make sure that our `pre-requirements` are installed and set.
 
 ParaSpell tries to make this as `simple` as possible for you here.
 
-You can install the required prerequisites for starting the network with a simple command:
+You can install required prerequisites for starting network with simple command:
 ```
 //linux
 sudo make initialize
@@ -13,12 +13,28 @@ sudo make initialize
 sudo make initializemac
 ```
 
-Then you have to compile the network config file and launch it onto docker as containers (make sure docker daemon is running)
+Then you have to compile network config file
+
+### You have 2 tracks to choose from depending on which startup configurator you wish to use.
+
+#### Parachain-launch
 ```
-make install
+make install-parachain-launch
 ```
 
-Relaunching the network after it was put down is necessary. It can be done by the following command
+#### Relaunch network after it was put down.
 ```
-make launch
+make launch-parachain-launch
 ```
+
+#### Zombienet - Linux (Ubuntu)
+```
+make install-zombienet-linux
+```
+
+#### Relaunch network after it was put down.
+```
+make launch-zombienet-linux
+```
+
+Zombienet for MacOs is also implemented, however there is an issue with Podman. Once they resolve it, it will be added as compatible also.
