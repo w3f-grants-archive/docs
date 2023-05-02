@@ -34,6 +34,15 @@ export default {
             ]
           },
           {
+            text: 'Usage of UI-V2',
+            items: [
+              { text: 'Starting local network', link: '/ui2/local2' },
+              { text: 'Adding new currency to UI', link: '/ui2/currency2' },
+              { text: 'Executing XCM calls', link: '/ui2/transfer2' },
+              { text: 'Using HRMP channels', link: '/ui2/channels2' }
+            ]
+          },
+          {
             text: 'Usage of UI-V1 (Archived)',
             items: [
               { text: 'Starting local network', link: '/ui/local' },
@@ -41,15 +50,6 @@ export default {
               { text: 'Adding new currency to UI', link: '/ui/currency' },
               { text: 'Executing XCM calls', link: '/ui/transfer' },
               { text: 'Using HRMP channels', link: '/ui/channels' }
-            ]
-          },
-          {
-            text: 'Usage of UI-V2',
-            items: [
-              { text: 'Starting local network', link: '/ui2/local2' },
-              { text: 'Adding new currency to UI', link: '/ui2/currency2' },
-              { text: 'Executing XCM calls', link: '/ui2/transfer2' },
-              { text: 'Using HRMP channels', link: '/ui2/channels2' }
             ]
           },
           {
