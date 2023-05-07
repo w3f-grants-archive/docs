@@ -10,7 +10,7 @@ paraspell.assets.getAssetsObject('Acala')
 ## Retrieve asset id for particular Parachain and asset
 This function returns `assetId` for `particular Parachain` and `asset symbol`
 ```js
-paraspell.assets.getAssetId('Acala', 'DOT')
+paraspell.assets.getAssetId('Acala', 'tDOT')
 ```
 ## Retrieve the Relay chain asset Symbol for a particular Parachain
 This function returns `symbol` of the Relay chain for a particular Parachain. Either "DOT" or "KSM"
