@@ -1,6 +1,11 @@
 # Asset pallet
 This pallet serves to retrieve asset data from compatible Parachains. User can retrieve details like `asset decimals`, `registered assets on particular Parachain`, `check if the asset is registered on Parachain` and more.
 
+## New video guide for this section:
+[
+![assetPallet](https://user-images.githubusercontent.com/55763425/238154687-c506cd39-887d-4135-8144-eca64f17e6ed.png)
+](https://youtu.be/jjGbXXqtElk)
+
 ## Retrieve assets object for a specific Parachain
 This function returns `assets object` from `assets.json` for `particular Parachain` including information about `native` and `foreign` assets.
 ```js

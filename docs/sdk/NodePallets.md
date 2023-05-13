@@ -2,6 +2,11 @@
 
 This functionality allows developers to query the `XCM pallets` that Parachains currently support. 
 
+## New video guide for this section:
+[
+![xcmPallets](https://user-images.githubusercontent.com/55763425/238154722-aedb5798-0cfe-4f0d-875c-dea5c60373eb.png)
+](https://youtu.be/oE1JttYN1zY)
+
 ## Importing functionality
 
 To use this functionality you first have to import it in the following way.

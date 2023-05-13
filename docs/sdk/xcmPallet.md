@@ -4,6 +4,11 @@
 - Parachain to Relay chain XCM transfer
 - Parachain to Parachain XCM transfer
 
+## New video guide for this section:
+[
+![xcmPallet](https://user-images.githubusercontent.com/55763425/238154617-0b57c5c8-76cf-490c-812d-481f097f4977.png)
+](https://youtu.be/MoCrt2vYJJU)
+
 ### There are also two possible ways that our SDK allows you to construct your XCM calls:
 - Construct your calls via Builder pattern (recommended, easy to use)
 - Construct them classic function like call way

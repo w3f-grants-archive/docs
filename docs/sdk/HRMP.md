@@ -3,6 +3,11 @@
 - Opening HRMP channels between Parachains
 - Closing HRMP channels between Parachains
 
+## New video guide for this section:
+[
+![hrmpPallets](https://user-images.githubusercontent.com/55763425/238154733-cef698ac-f00f-4e74-8c4f-1e0d7cfe4059.png)
+](https://youtu.be/8iXQZhyNrPM)
+
 ### There are also two possible ways that our SDK allows you to construct your HRMP calls:
 - Construct your calls via Builder pattern (recommended, easy to use)
 - Construct them classic function like call way
