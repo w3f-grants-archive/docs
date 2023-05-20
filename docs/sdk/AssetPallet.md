@@ -53,6 +53,12 @@ Function returns specific Parachain id
 paraspell.assets.getParaId('Basilisk')
 ```
 
+## Retrieve Parachain name from Parachain ID
+Function to get specific TNode from Parachain id
+```js
+paraspell.assets.getTNode(nodeID: number)
+```
+
 ## Import SDK compatible Parachains as constant
 Import all compatible Parachains as constant
 ```js
