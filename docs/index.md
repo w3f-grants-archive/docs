@@ -8,7 +8,7 @@ Implementing XCM support into your dApp could be a `complicated` matter sometime
 
 **ParaSpell✨ divides into two parts which will be mentioned in docs:**
 
-- XCM API, this part is currently under construction and will provide much faster integration and response times whenn generating calls compared to manual integration of XCM SDK
+- XCM API, this part is currently under construction and will provide much faster integration and response times when generating calls compared to manual integration of XCM SDK
 - XCM SDK, you can easily construct `XCM` messages in a matter of seconds 
 - UI for XCM SDK, playing with `local network` and for `Parachain developers` to test their work
 
