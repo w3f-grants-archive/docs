@@ -24,6 +24,12 @@ export default {
             ]
           },
           {
+            text: 'LightSpell XCM API (TBA)',
+            items: [
+              { text: 'TBA', link: '/api/TBA' },
+            ]
+          },
+          {
             text: 'Pallets in XCM-SDK',
             items: [
               { text: 'Asset Pallet', link: '/sdk/AssetPallet' },
