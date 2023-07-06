@@ -6,7 +6,7 @@ ParaSpell✨ focuses on enhancing `XCM` functionality along with `Assets` that t
 
 Implementing XCM support into your dApp could be a `complicated` matter sometimes. Each Parachain can implement support for XCM their `own way`. ParaSpell✨ `wrapped` every compatible Parachain and did this `research` for you. In the end, `saving time` can be essential when delivering a product. Time `never` stops, so we all should use it wisely.
 
-**ParaSpell✨ divides into two parts which will be mentioned in docs:**
+**ParaSpell✨ divides into three parts which will be mentioned in docs:**
 
 - XCM API, this part is currently under construction and will provide much faster integration and response times when generating calls compared to manual integration of XCM SDK
 - XCM SDK, you can easily construct `XCM` messages in a matter of seconds 
