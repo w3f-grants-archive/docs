@@ -37,7 +37,6 @@ Only `to` parameter is provided, thus the Parachain to Relay chain scenario will
 ```js
     Builder(api)
       .from('Acala')            // Origin Parachain
-      .currency('DOT')          // Token symbol (String) || TokenID (Number)
       .amount(amount)           // Token amount
       .address(address)         // AccountId32 address
       .build()                  // Function called to build call
@@ -88,7 +87,6 @@ This XCM constructor uses send function same as Parachain to Parachain scenario.
 paraspell.xcmPallet.send(
   api,
   origin,       // Origin Parachain
-  currency,     // Token symbol (String) || TokenID (Number)
   amount,       // Token amount
   to            // AccountId32 or AccountKey20 address
   )
