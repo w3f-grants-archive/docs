@@ -16,7 +16,7 @@
 Both of these ways will be explained.
 
 ## Builder pattern XCM call from Relay chain to Parachain
-Only `from` parameter is provided, thus the Relay chain to Parachain scenario will be used.
+Only `to` parameter is provided, thus the Relay chain to Parachain scenario will be used.
 
 ```js
   Builder(api)
@@ -32,7 +32,7 @@ Eg. use standard public key `141NGS2jjZca5Ss2Nysth2stJ6rimcnufCNHnh5ExSsftn7U`
 Instead of `0x84fc49ce30071ea611731838cc7736113c1ec68fbc47119be8a0805066df9b2b`
 
 ## Builder pattern XCM call from Parachain chain to Relay chain
-Only `to` parameter is provided, thus the Parachain to Relay chain scenario will be used.
+Only `from` parameter is provided, thus the Parachain to Relay chain scenario will be used.
 
 ```js
     Builder(api)
