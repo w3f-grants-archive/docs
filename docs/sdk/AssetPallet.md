@@ -42,7 +42,7 @@ The function checks if Parachain supports a particular asset. (Both native and f
 ```js
 paraspell.assets.hasSupportForAsset(node: TNode, symbol: string)
 ```
-## Retrieve decimals for a particular asset for a particular Parachain
+## Retrieve decimals of a particular asset for a particular Parachain
 The function returns decimals for a specific asset
 ```js
 paraspell.assets.getAssetDecimals('Basilisk','KSM')

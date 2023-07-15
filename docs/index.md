@@ -1,16 +1,40 @@
-# What is ParaSpell✨
+<h1 align="center">
+Welcome Polkadot and Kusama magician 👋
+</h1>
 
-ParaSpell✨ focuses on enhancing `XCM` functionality along with `Assets` that the compatible Parachains implement, `XYK` pallet and `HRMP` pallet.
+<h3 align="center">
+Let us introduce you to 
+</h3>
+
+<p align="center">
+<img width="400" alt="ParaSpell logo" src="https://user-images.githubusercontent.com/55763425/251588903-bcf72b05-bdf7-46d8-b804-16b0e3236792.png">
+</p>
+
+<h3 align="center">
+and
+</h3>
+
+<p align="center">
+<img width="400" alt="LightSpell logo" src="https://user-images.githubusercontent.com/55763425/251588168-4855abc3-445a-4207-9a65-e891975be62c.png">
+</p>
+
+
+## What we are working on 🧰
+- [XCM API](https://github.com/paraspell/xcm-api) (LightSpell⚡️): Meant to ease the integration of XCM interoperability into your dApp, offload your dApp from heavy computing and save you costs. LightSpell implements XCM SDK into simple API endpoints.
+- [XCM SDK](https://github.com/paraspell/xcm-sdk): Meant to unify cross-chain experience on Polkadot and become a layer 2 protocol that allows for seamless integration of XCM into your dApps. XCM SDK groups all 44 integrated XCM compatible Parachain XCM Pallets into one uniform package and allows you to generate cross-chain calls with just one line.
+- [XCM UI](https://github.com/paraspell/ui-v2): Meant to allow users to experience cross-chain transfers through XCM, allow parachain developers to test their Parachains and allow developers to see an example of dApp integrating our XCM SDK.
+
+Complete guide on how to use these tools will be mentioned throughout the document.
+
+
+## What is ParaSpell✨ in general
+
+ParaSpell focuses on enhancing `XCM` functionality by doing research on every XCM compatible Parachain. Research is then composed into XCM API and XCM SDK repositories that group diversity in XCM into uniform easy to implement tools that allow you to implement interoperability benefits of Polkadot ecosystem into your application within moments.
 
 **Why should I use ParaSpell✨?**
 
-Implementing XCM support into your dApp could be a `complicated` matter sometimes. Each Parachain can implement support for XCM their `own way`. ParaSpell✨ `wrapped` every compatible Parachain and did this `research` for you. In the end, `saving time` can be essential when delivering a product. Time `never` stops, so we all should use it wisely.
+Implementing Polkadots flagship feature called XCM into your application could be a `complicated` matter sometimes. Parachains tend to customize their XCM Pallets to fit their needs which creates lots of diversity. This means, that implementing support for different Parachains in uniform way is lenghty task. Luckily, ParaSpell `wrapped` these pallets from every compatible Parachain and did this `research` for you. In the end, `saving time` can be essential when delivering a product. Time `never` stops, so we all should use it wisely.
 
-**ParaSpell✨ divides into three parts which will be mentioned in docs:**
-
-- XCM API, this part is currently under construction and will provide much faster integration and response times when generating calls compared to manual integration of XCM SDK
-- XCM SDK, you can easily construct `XCM` messages in a matter of seconds 
-- UI for XCM SDK, playing with `local network` and for `Parachain developers` to test their work
 
 ## Project achievements so far
 Project achievements in chronological order ⌛️.
@@ -27,11 +51,8 @@ Project achievements in chronological order ⌛️.
 - 📘 Article about Polkadot & ParaSpell created & accepted to be presented at international cross-chain conference IEEE BCCA 2023 held in Kuwait [links TBA]
 
 
-## Founded by
+## Project is supported by
 
 [<img width="245" alt="web3 foundation_grants_badge_black" src="https://user-images.githubusercontent.com/55763425/211145923-f7ee2a57-3e63-4b7d-9674-2da9db46b2ee.png">](https://github.com/w3f/Grants-Program/pull/1245)
-[<img width="245" alt="web3 foundation_grants_badge_white (1)" src="https://user-images.githubusercontent.com/55763425/211069914-bbec9e28-7a0d-417b-8149-087b7f04e57e.png">](https://github.com/w3f/Grants-Program/pull/1245)
-
 [<img width="245" alt="kusamacommunity" src="https://user-images.githubusercontent.com/55763425/227636288-e0aa6f2a-9eb6-4af2-bc6b-d572f145a2f0.png">](https://kusama.subsquare.io/referenda/referendum/123)
-
 [![logo-v1](https://user-images.githubusercontent.com/55763425/204865221-90d2b3cd-f2ac-48a2-a367-08722aa8e923.svg)](https://bsx.fi/)

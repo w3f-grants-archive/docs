@@ -19,19 +19,23 @@ export default {
         sidebar: [
           {
             items: [
-                { text: 'About ParaSpell✨', link: '/' },
-                { text: 'Getting Started', link: '/getting-started' }
+                { text: 'Welcome to ParaSpell✨', link: '/' },
             ]
           },
           {
-            text: 'LightSpell XCM API (TBA)',
+            text: 'LightSpell⚡️ XCM API',
             items: [
-              { text: 'TBA', link: '/api/TBA' },
+              { text: 'Getting Started', link: '/api/g-started' },
+              { text: 'Asset Pallet', link: '/api/assetP' },
+              { text: 'HRMP Pallet', link: '/api/hrmpP' },
+              { text: 'Node Pallets', link: '/api/nodeP' },
+              { text: 'XCM Pallet', link: '/api/xcmP' },
             ]
           },
           {
-            text: 'Pallets in XCM-SDK',
+            text: 'ParaSpell✨ XCM SDK',
             items: [
+              { text: 'Getting Started', link: '/sdk/getting-started' },
               { text: 'Asset Pallet', link: '/sdk/AssetPallet' },
               { text: 'HRMP Pallet', link: '/sdk/HRMP' },
               { text: 'Node Pallets', link: '/sdk/NodePallets' },
@@ -40,7 +44,7 @@ export default {
             ]
           },
           {
-            text: 'Usage of UI-V2',
+            text: 'ParaSpell✨ UI',
             items: [
               { text: 'Starting local network', link: '/ui2/local2' },
               { text: 'Adding new currency to UI', link: '/ui2/currency2' },
@@ -49,19 +53,10 @@ export default {
             ]
           },
           {
-            text: 'Usage of UI-V1 (Archived)',
+            text: 'Might interest you 🔭',
             items: [
-              { text: 'Starting local network', link: '/ui/local' },
-              { text: 'Modifying local network', link: '/ui/modify' },
-              { text: 'Adding new currency to UI', link: '/ui/currency' },
-              { text: 'Executing XCM calls', link: '/ui/transfer' },
-              { text: 'Using HRMP channels', link: '/ui/channels' }
-            ]
-          },
-          {
-            text: 'Interesting links',
-            items: [
-              { text: 'Links', link: '/links' },
+              { text: 'Interesting links', link: '/links' },
+              { text: 'List of supported chains', link: '/supported' },
             ]
           },
         ]
