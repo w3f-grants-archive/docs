@@ -6,7 +6,7 @@ This functionality allows developers to query the `XCM pallets` that Parachains 
 
 ```JS
 const response = await fetch(
-    "http://localhost:3001/pallets/parameters?" + //Replace "parameters" with your desired action eg. "Acala/default" 
+    "http://localhost:3001/pallets/<action>" + //Replace "action" with your desired action eg. "Acala/default" 
 );
 
 console.log(response) //use response data as necessary

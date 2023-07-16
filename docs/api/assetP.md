@@ -5,7 +5,7 @@ This pallet serves to retrieve asset data from compatible Parachains. User can r
 
 ```JS
 const response = await fetch(
-    "http://localhost:3001/assets/parameters?" + //Replace "parameters" with your desired action eg. "Acala/native" 
+    "http://localhost:3001/assets/<action>" + //Replace "action" with your desired action eg. "Acala/native" 
 );
 
 console.log(response) //use response data as necessary
