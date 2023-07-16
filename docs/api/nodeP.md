@@ -17,7 +17,7 @@ This snippet should work on most javascript/typescript frameworks as it is stand
 ## Return default pallet for specific Parachain
 Following endpoint returns default pallet for specific Parachain
 
-**Endpoint**: `GET /pallets/:node`
+**Endpoint**: `GET /pallets/:node/default`
 
    - **Parameters**:
      - `node` (path parameter): Specifies the name of the Parachain.
@@ -28,7 +28,7 @@ Following endpoint returns default pallet for specific Parachain
 
 **Example of request:**
 ```js
-const response = await fetch("http://localhost:3001/pallets/Acala");
+const response = await fetch("http://localhost:3001/pallets/Acala/default");
 ```
 
 ## Return an array of supported pallets for specific Parachain
