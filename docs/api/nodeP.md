@@ -34,7 +34,7 @@ const response = await fetch("http://localhost:3001/pallets/Acala/default");
 ## Return an array of supported pallets for specific Parachain
 Following endpoint returns all XCM Pallets that are supported on specific Parachain
 
-**Endpoint**: `GET /pallets/:node/supported`
+**Endpoint**: `GET /pallets/:node`
 
    - **Parameters**:
      - `node` (path parameter): Specifies the name of the Parachain.
@@ -45,5 +45,5 @@ Following endpoint returns all XCM Pallets that are supported on specific Parach
 
 **Example of request:**
 ```js
-const response = await fetch("http://localhost:3001/pallets/Basilisk/supported");
+const response = await fetch("http://localhost:3001/pallets/Basilisk");
 ```
