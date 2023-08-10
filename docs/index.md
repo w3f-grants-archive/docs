@@ -22,7 +22,6 @@ and
 ## What we are working on 🧰
 - [XCM API](https://github.com/paraspell/xcm-api) (LightSpell⚡️): Meant to ease the integration of XCM interoperability into your dApp, offload your dApp from heavy computing and save you costs. LightSpell implements XCM SDK into simple API endpoints.
 - [XCM SDK](https://github.com/paraspell/xcm-sdk): Meant to unify cross-chain experience on Polkadot and become a layer 2 protocol that allows for seamless integration of XCM into your dApps. XCM SDK groups all 44 integrated XCM compatible Parachain XCM Pallets into one uniform package and allows you to generate cross-chain calls with just one line.
-- [XCM UI](https://github.com/paraspell/ui-v2): Meant to allow users to experience cross-chain transfers through XCM, allow parachain developers to test their Parachains and allow developers to see an example of dApp integrating our XCM SDK.
 
 Complete guide on how to use these tools will be mentioned throughout the document.
 

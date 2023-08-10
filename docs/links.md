@@ -9,8 +9,6 @@ API serves as `XCM`, `HRMP`, `Asset pallet` enhancement to ease developers' life
 ### XCM-SDK
 [SDK Link](https://github.com/paraspell/xcm-sdk) |
 SDK groups different pallets in uniform way. These Pallets consist of: `XCM`, `HRMP`, `Asset pallet`, `XYK pallet`. SDK includes support for 44 XCM compatible Parachains and is easy to implement as it is hiding most of complex logic from user that needs to enter only few necessary easy to understand details.
-### UI-V2
-[UI-V2 Link](https://github.com/paraspell/ui-v2) | New version of UI-V1 mentioned below. It uses a Sub-scaffold template, state-of-the-art Vue3 and Nuxt to deliver maximum performance and utility. The design is also slightly more intuitive to use and more modern. UI proposes a good example of how interoperable dApp can be built.
 
 ### Docs
 [Docs Link](https://github.com/paraspell/docs) | Docs demonstrate how XCM API, XCM SDK or XCM UI can be used. They also contain useful `links` and important information about `Paraspell`.
@@ -22,6 +20,9 @@ SDK groups different pallets in uniform way. These Pallets consist of: `XCM`, `H
 
 ### UI-V1
 [UI-V1 Link](https://github.com/paraspell/ui-v1) | UI was the enhancement of `XCM SDK` and also allowed Parachain developers to test their Parachains `locally`. Another benefit it brought was, that it allowed users to open HRMP channels between already preconfigured Parachans and also try to send `XCM` messages across them. UI also served as an example of learning how `XCM` works in practice.
+
+### UI-V2
+[UI-V2 Link](https://github.com/paraspell/ui-v2) | Was version of UI-V1 mentioned above. It used a Sub-scaffold template, state-of-the-art Vue3 and Nuxt to deliver maximum performance and utility. The design was also slightly more intuitive to use and more modern. UI proposed a good example of how interoperable dApp can be built.
 
 ### Moondo
 [Moondo Link](https://github.com/paraspell/moondo) | Moondo was created for the Moonbeam hackathon. It contains a simple example of `Axelar GMP` that can be launched locally. It also demonstrated `XCM` usability on `Test net`. Lastly, it used a special pallet called `XCM Transactor` which allowed the user to execute commands on the Relay chain from Parachain. 

@@ -36,7 +36,7 @@ const response = await fetch("http://localhost:3001/assets/Statemint");
 ## Retrieve asset id for particular Parachain and asset
 Following endpoint returns asset id for specific asset on specific Parachain.
 
-**Endpoint**: `GET /assets/:node/id/:symbol`
+**Endpoint**: `GET /assets/:node/id?symbol=:symbol`
 
    - **Parameters**:
      - `node` (path parameter): Specifies the name of the Parachain.
@@ -50,7 +50,7 @@ Following endpoint returns asset id for specific asset on specific Parachain.
 
 **Example of request:**
 ```js
-const response = await fetch("http://localhost:3001/assets/Interlay/id/USDT");
+const response = await fetch("http://localhost:3001/assets/Interlay/id?symbol=USDT");
 ```
 
 ## Retrieve the Relay chain asset Symbol for a particular Parachain
@@ -128,7 +128,7 @@ const response = await fetch("http://localhost:3001/assets/Moonbeam/all-symbols"
 ## Retrieve support for a particular asset on a particular Parachain
 Following endpoint returns boolean value that confirms if asset is registered on specific Parachain or not.
 
-**Endpoint**: `GET /assets/:node/has-support/:symbol`
+**Endpoint**: `GET /assets/:node/has-support?symbol=:symbol`
 
    - **Parameters**:
      - `node` (path parameter): Specifies the name of the Parachain.
@@ -142,14 +142,14 @@ Following endpoint returns boolean value that confirms if asset is registered on
 
 **Example of request:**
 ```js
-const response = await fetch("http://localhost:3001/assets/HydraDX/has-support/DOT");
+const response = await fetch("http://localhost:3001/assets/HydraDX/has-support?symbol=DOT");
 ```
 
 
 ## Retrieve decimals for a particular asset for a particular Parachain
 Following endpoint retrieves specific asset decimals on specific Parachain.
 
-**Endpoint**: `GET /assets/:node/decimals/:symbol`
+**Endpoint**: `GET /assets/:node/decimals?symbol=:symbol`
 
 - **Parameters**:
     - `node` (path parameter): Specifies the name of the Parachain.
@@ -163,7 +163,7 @@ Following endpoint retrieves specific asset decimals on specific Parachain.
 
 **Example of request:**
 ```js
-const response = await fetch("http://localhost:3001/assets/Basilisk/decimals/BSX");
+const response = await fetch("http://localhost:3001/assets/Basilisk/decimals?symbol=BSX");
 ```
 
 ## Retrieve Parachain id for a particular Parachain

@@ -30,6 +30,11 @@ export default {
               { text: 'HRMP Pallet', link: '/api/hrmpP' },
               { text: 'Node Pallets', link: '/api/nodeP' },
               { text: 'XCM Pallet', link: '/api/xcmP' },
+              { text: 'Upgrade request amount', link: '/api/upgrade' },
+              { text: 'API Playground', link: '/api/playground' },
+              { text: 'Deploy API yourself', link: '/api/deploy' },
+
+
             ]
           },
           {
@@ -41,15 +46,6 @@ export default {
               { text: 'Node Pallets', link: '/sdk/NodePallets' },
               { text: 'XCM Pallet', link: '/sdk/xcmPallet' },
               { text: 'XYK Pallet', link: '/sdk/XYK' }
-            ]
-          },
-          {
-            text: 'ParaSpell✨ UI',
-            items: [
-              { text: 'Starting local network', link: '/ui2/local2' },
-              { text: 'Adding new currency to UI', link: '/ui2/currency2' },
-              { text: 'Executing XCM calls', link: '/ui2/transfer2' },
-              { text: 'Using HRMP channels', link: '/ui2/channels2' }
             ]
           },
           {
